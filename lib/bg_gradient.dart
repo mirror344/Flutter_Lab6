@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fact_cards_dudakov/switch_img.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.topRight;
@@ -25,7 +26,9 @@ class BgGradient extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(),
+      child: Center(
+        child: SwitchImg(),
+      ),
     );
   }
 }
